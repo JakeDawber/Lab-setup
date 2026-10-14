@@ -1,13 +1,12 @@
-<h1>DNS and Active Directory health</h1>
+<h1>Setting up the lab</h1>
 
 
 <h2>Description</h2>
-DNS Service Verification: Used netstat to confirm that DNS is listening on TCP and UDP port 53 on the domain controller's assigned IPv4 address. Successful DNS resolution and Active Directory DNS diagnostics were verified separately.
+The first stage of this home lab involved deploying a Windows Server 2022 virtual machine and configuring it as a Domain Controller using Active Directory Domain Services (AD DS). The goal was to build a foundation for a small enterprise-style network where users, computers, authentication and security policies can be managed centrally.
 
-<h2>Process</h2>
-Step 1: Verify the DNS service is listening
+The lab was built using VMware Workstation, with an isolated host-only network to provide a safe environment for testing Windows Server administration without affecting my main network.
 
-<img src="Screenshots/Power on VM.png"/>
+<h2>Environment</h2>
 
 Virtualisation: VMware Workstation
 
@@ -62,54 +61,4 @@ Domain Controller promotion and forest creation
 DNS configuration and troubleshooting
 
 PowerShell and command-line diagnostics
-<br />
 
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
-<p align="center">
-Launch the utility: <br/>
-<img src="Screenshots/Power on VM.png"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
