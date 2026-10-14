@@ -44,7 +44,7 @@ Configured DNS as part of the Domain Controller setup. Created and verified the 
 
 Used PowerShell, nslookup and dcdiag /test:dns to investigate DNS behaviour and verify that the domain controller and its DNS configuration were functioning correctly.
 
-[DNS and Active Directory health](https://github.com/JakeDawber/DNS-and-Active-Directory-Health)
+[DNS and Active Directory health](https://github.com/JakeDawber/DNS-and-Active-Directory-Health) [Forward and Reverse DNS Lookup](https://github.com/JakeDawber/PowerShell-Forward-and-Reverse-DNS-Lookup/tree/main)
 <h2>Outcome</h2>
 
 Successfully established the initial Active Directory environment, providing a foundation for the next stages of the project. This environment will be expanded with domain users, organisational units (OUs), security groups, Group Policy and a Windows client machine to simulate common IT support scenarios.
