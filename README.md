@@ -36,7 +36,7 @@ Installed the AD DS role through Server Manager and promoted the server to a Dom
 
 <img src="Screenshots/Roles and sever.png"/>
 
-Whilst adding the DNS role to the server, I came across a problem. My troubleshooting process can be found [here](https://github.com/JakeDawber/Lab-setup/tree/main)
+Whilst adding the DNS role to the server, I came across a problem. My troubleshooting process can be found [here](https://github.com/JakeDawber/Troubleshooting-DNS-Configuration-in-VMware)
 
 3. DNS Configuration and Verification
 
