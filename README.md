@@ -27,11 +27,16 @@ Roles installed: Active Directory Domain Services (AD DS) and DNS Server
 1. Virtual Machine and Network Configuration
 
 Created a Windows Server 2022 virtual machine and configured a static IPv4 address to ensure the server remained accessible at a consistent address. The server was connected to an isolated host-only virtual network.
+
 <img src="Screenshots/Power on VM.png"/>
+
 2. Active Directory Domain Services
 
 Installed the AD DS role through Server Manager and promoted the server to a Domain Controller. Created a new Active Directory forest using the domain name jakehomelab.test.
+
 <img src="Screenshots/Roles and sever.png"/>
+
+Whilst adding the DNS role to the server, I came across a problem. My troubleshooting process can be found [here](https://github.com/JakeDawber/Lab-setup/tree/main)
 
 3. DNS Configuration and Verification
 
