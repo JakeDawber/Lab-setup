@@ -1,12 +1,13 @@
-<h1>Setting up the lab</h1>
+<h1>DNS and Active Directory health</h1>
 
 
 <h2>Description</h2>
-The first stage of this home lab involved deploying a Windows Server 2022 virtual machine and configuring it as a Domain Controller using Active Directory Domain Services (AD DS). The goal was to build a foundation for a small enterprise-style network where users, computers, authentication and security policies can be managed centrally.
+DNS Service Verification: Used netstat to confirm that DNS is listening on TCP and UDP port 53 on the domain controller's assigned IPv4 address. Successful DNS resolution and Active Directory DNS diagnostics were verified separately.
 
-The lab was built using VMware Workstation, with an isolated host-only network to provide a safe environment for testing Windows Server administration without affecting my main network.
+<h2>Process</h2>
+Step 1: Verify the DNS service is listening
 
-<h2>Environment</h2>
+<img src="Screenshots/Power on VM.png"/>
 
 Virtualisation: VMware Workstation
 
