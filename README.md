@@ -31,6 +31,7 @@ Created a Windows Server 2022 virtual machine and configured a static IPv4 addre
 2. Active Directory Domain Services
 
 Installed the AD DS role through Server Manager and promoted the server to a Domain Controller. Created a new Active Directory forest using the domain name jakehomelab.test.
+<img src="Screenshots/Roles and sever.png"/>
 
 3. DNS Configuration and Verification
 
